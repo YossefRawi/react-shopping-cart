@@ -1,0 +1,72 @@
+const Data = [{
+    id:1,
+    name:"Lenovo",
+    price:539,
+    image:'assets/images/laptop-png-16.png',
+    quantity:1
+},
+{
+    id:2,
+    name:"Acer",
+    price:289,
+    image:'assets/images/laptop-png-21.png',
+    quantity:1
+},
+{
+    id:3,
+    name:"Hp",
+    price:600,
+    image:'assets/images/laptop-png-24.png',
+    quantity:1
+},
+{
+    id:4,
+    name:"Asus",
+    price:544,
+    image:'assets/images/laptop-png-27.png',
+    quantity:1
+},
+{
+    id:5,
+    name:"Dell",
+    price:864,
+    image:'assets/images/laptop-png-4.png',
+    quantity:1
+},
+{
+    id:6,
+    name:"Lenovo",
+    price:984,
+    image:'assets/images/laptop-png-28.png',
+    quantity:1
+},
+{
+    id:7,
+    name:"Dell",
+    price:713,
+    image:'assets/images/laptop-png-32.png',
+    quantity:1
+},
+{
+    id:8,
+    name:"Hp",
+    price:661,
+    image:'assets/images/laptop-png-23.png',
+    quantity:1
+},
+{
+    id:9,
+    name:"Acer",
+    price:575,
+    image:'assets/images/laptop-png-8.png',
+    quantity:1
+},
+{
+    id:10,
+    name:"Asus",
+    price:636,
+    image:'assets/images/laptop-png-9.png',
+    quantity:1
+}]
+
+export default Data

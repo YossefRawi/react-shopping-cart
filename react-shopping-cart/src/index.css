@@ -1,0 +1,115 @@
+:root{
+  font-size: 10px;
+  --main-color: #f2eeeb;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*,ul,ol,li,a{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../public/assets/images/white-laptop-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Montserrat",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button{
+  height: 5rem;
+  width: 15rem;
+  font: bold;
+  font-size: 2rem;
+  border: 0.1rem  solid var(--main-color);
+  color:var(--main-color) ;
+  background-color: black;
+  box-shadow: inset 0 0 0 0 var(--main-color);
+  transition: color 0.5s  ease-in-out, box-shadow 0.5s  ease-in-out;
+
+}
+button:hover{
+  box-shadow: inset 300px 0 0 0 var(--main-color);
+  color: black;
+}
+
+
+
+
+
+.nav--toshop,.nav--tocart,.laptopia-header-name{
+  text-decoration: none;
+  color: var(--main-color);
+  box-shadow: inset 0 0 0 0 var(--main-color);
+  transition: color 0.5s  ease-in-out, box-shadow 0.5s  ease-in-out;
+}
+
+
+.nav--toshop:hover,.nav--tocart:hover,.laptopia-header-name:hover{
+  box-shadow: inset 300px 0 0 0 var(--main-color);
+  color: black;
+}
+
+
+
+.laptopia--nav{
+  background-color: black;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  padding: 1rem 4rem 1rem 1rem;
+  font-size: 2.5rem;
+  color: var(--main-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.laptopia-nav-link{
+  display: flex;
+
+  gap: 2rem;
+  
+}
+
+.nav--qty{
+  background-color: var(--main-color);
+  color: black;
+  padding: 0 0.5rem;
+}
+
+
+
+
+.home--main{
+  font-size: 2rem;
+  color: var(--main-color);
+  height: 100vh;
+  background-image: url('../public/assets/images/rainbow-laptop-two.jpg');
+  object-fit: cover;
+  background-size: cover;
+}
+
+
+
+.home-laptop-container{
+  height: 70%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:1000px){
+  .home-laptop-container{
+    text-align: center;
+  }
+
+
+}
